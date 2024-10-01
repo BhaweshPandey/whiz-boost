@@ -1,0 +1,16 @@
+.horizontalScrollContainer {
+  overflow-x: hidden;
+  background-color: #fffced;
+  color: #202123;
+  overflow-y: hidden;
+  line-height: 425px;
+  font-size: 423px;
+}
+@media screen and (max-width: 600px) {
+  .horizontalScrollContainer {
+    font-size: 200px;
+    line-height: 212px;
+ 
+  }
+}
+

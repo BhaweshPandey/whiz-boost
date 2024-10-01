@@ -1,0 +1,65 @@
+.header {
+  position: sticky;
+  top: 0px;
+  width: "100%";
+}
+
+.inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.logo{
+  color: #fffced;
+  font-size:xx-large;
+  font-weight: 600;
+  margin-bottom: -20px;
+}
+
+.mainLink {
+  text-transform: uppercase;
+  font-family: 'Helvetica', Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 22px;
+  color: #fffcedf7;
+  opacity:97.0%;
+  padding-left: 13px;
+  padding-right: 13px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+   :hover {
+    border-bottom: 1px solid #fffcedf7;
+    text-decoration: none;
+    transition: 0.4s;
+    transition-timing-function: cubic-bezier(0.58, 0.3, 0.005, 1);
+  }
+
+  &[data-active] {
+    color: #fffced;
+    border-bottom: 1px solid #fffcedf7;
+    transition: 0.3s;
+    transition-timing-function: cubic-bezier(0.58, 0.3, 0.005, 1);
+  }
+}
+
+
+.secondaryLink {
+  color: light-dark(var(--mantine-color-gray-6), var(--mantine-color-dark-1));
+  font-size: var(--mantine-font-size-xs);
+  text-transform: uppercase;
+  transition: color 100ms ease;
+
+  @mixin hover {
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+    text-decoration: none;
+  }
+}

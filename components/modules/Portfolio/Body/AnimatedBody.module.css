@@ -1,0 +1,65 @@
+.body_container {
+  position: relative;
+
+  padding: 10px;
+}
+.backgroundText {
+  position: sticky;
+  z-index: 0;
+  text-align: center;
+  font-size: 145px;
+  top: 40px;
+  z-index: 0;
+  word-break: break-all;
+  transition: 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+  transition-delay: calc(0.1s + (0.05s * var(--mantine-spacing-sm)));
+  @media screen and (max-width: 734px) {
+    font-size: 60px;
+    word-break: break-all;
+  }
+}
+.values_container {
+  font-size: 55px;
+  line-height: 60px;
+  text-decoration: none solid rgb(255, 252, 237);
+  letter-spacing: -0.2px;
+  width: '100%';
+  margin-top: 100px;
+  margin-bottom: 170px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 750px) {
+  .values_container {
+    font-size: 30px;
+    line-height: normal;
+  }
+}
+
+.project_cards {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 10px;
+}
+.card {
+  border-radius: var(--mantine-spacing-xs);
+  position: relative;
+  width: 600px;
+  max-height: 574px;
+  overflow: hidden;
+}
+.card .card_image {
+  object-fit: contain;
+}
+
+.viewAllBtn {
+  position: fixed;
+  width: 115px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  inset-inline-start: 10px;
+  top: 200px;
+}

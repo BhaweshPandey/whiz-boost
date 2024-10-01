@@ -1,0 +1,27 @@
+.footer {
+  background-color: #fffced;
+  height: '100%';
+  width: '100%';
+  /* max-width: 1425px; */
+  margin: 0 auto;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  /* padding-left: 0.5rem; */
+  color: #202123;
+  text-transform: none;
+}
+
+.afterFooter {
+  margin-top: 50px;
+  border-bottom: rem(1.5px) solid #202123;
+  padding: 20px 0px 0px 0px;
+}
+.text {
+  font-size: 55px;
+  font-weight: 400;
+}
+.footerText {
+  font-size: 18px;
+  font-weight: 300;
+  box-sizing: border-box;
+}

@@ -1,0 +1,20 @@
+.custom_background {
+  background-color: #202123;
+  background-image: url('../../public/image/portfolio_assets/asset6.svg');
+  background-position: right top;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  color: #fffced;
+  font-family: Helvetica, sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.honours {
+  position: fixed;
+  z-index: 999;
+  transform: translateY(-50%);
+  top: 50%;
+  right: 0;
+}
